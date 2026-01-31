@@ -432,7 +432,6 @@ body {
   padding: 0;
 }
 
-
 .contact {
   color: var(--secondary);
   padding: 8rem 1.4rem 7%;
@@ -714,9 +713,13 @@ body {
     max-width: 30rem;
   }
 
+  .menu .list-menu .menu-ready {
+  }
+
   .menu .list-menu .food-meals {
-  padding: 1.4rem 18%;
-}
+    padding: 0 18%;
+    margin-top: 0.5rem;
+  }
 }
 
 /* mobile  */
