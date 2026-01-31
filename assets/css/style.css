@@ -115,12 +115,15 @@ body {
 }
 
 .hero .center-content {
-  /* max-height: 60rem; */
-  padding: 1.4rem 7%;
+  width: 100%;
+  max-width: 400rem;   /* BATAS LEBAR BIAR TETAP TENGAH */
+  margin: 0 auto;      /* BIKIN TENGAH */
+  padding: 0 7%;       /* JARAK KIRI KANAN */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 
 .hero .center-content .left-content {
   flex: 1;
@@ -711,9 +714,6 @@ body {
 
   .footer .footer-container .footer-left {
     max-width: 30rem;
-  }
-
-  .menu .list-menu .menu-ready {
   }
 
   .menu .list-menu .food-meals {
