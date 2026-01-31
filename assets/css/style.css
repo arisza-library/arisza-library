@@ -234,6 +234,13 @@ body {
   font-size: 1.4rem;
 }
 
+.about .content-container .content .content-teks p span {
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 0 0.5rem;
+
+}
+
 .about h2::after {
   content: "";
   position: absolute;
